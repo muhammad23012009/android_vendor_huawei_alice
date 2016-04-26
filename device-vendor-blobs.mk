@@ -73,7 +73,50 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
-	$(LOCAL_PATH)/proprietary/system/lib64/libmedia.so:system/lib64/libmedia.so
+	$(LOCAL_PATH)/proprietary/system/lib64/libmedia.so:system/lib64/libmedia.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libearpa.so:system/lib/libearpa.so \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_ALICE_normal.xml:system/etc/audio/algorithm/algorithm_ALICE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_ALICEPA_normal.xml:system/etc/audio/algorithm/algorithm_ALICEPA_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_SHINE_normal.xml:system/etc/audio/algorithm/algorithm_SHINE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/ascend_algorithm_default.xml:system/etc/audio/algorithm/ascend_algorithm_default.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_ALICE_normal.xml:system/etc/audio/dts/dts_ALICE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_ALICEPA_normal.xml:system/etc/audio/dts/dts_ALICEPA_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_default.xml:system/etc/audio/dts/dts_default.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_SHINE_normal.xml:system/etc/audio/dts/dts_SHINE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_ALICE_normal.xml:system/etc/audio/mbdrc/mbdrc_ALICE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml:system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_default.xml:system/etc/audio/mbdrc/mbdrc_default.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_SHINE_normal.xml:system/etc/audio/mbdrc/mbdrc_SHINE_normal.xml \
+    $(LOCAL_PATH)/proprietary/system/etc/hisi_omx.cfg:system/etc/hisi_omx.cfg \
+	$(LOCAL_PATH)/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/hissc/mixer_paths_ALICEPA.xml:system/etc/audio/hissc/mixer_paths_ALICEPA.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/hissc/pop_seq_ALICEPA.xml:system/etc/audio/hissc/pop_seq_ALICEPA.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/hissc/mixer_volumes_ALICEPA_normal.xml:system/etc/audio/hissc/mixer_volumes_ALICEPA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/hissc/pop_seq_ALICEPA.xml:system/etc/audio/hissc/pop_seq_ALICEPA.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/modem/modem_ALICE_normal.xml:system/etc/audio/modem/modem_ALICE_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/dts/audio/hissc/dts_ALICEPA_normal.xml:system/etc/audio/dts/dts_ALICEPA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml:system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/sws/sws_ALICEPA_normal.xml:system/etc/audio/sws/sws_ALICEPA_normal.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/audio/nxp/Tfa9895_ALICEPA.cnt:system/etc/audio/nxp/Tfa9895_ALICEPA.cnt \
+	$(LOCAL_PATH)/proprietary/system/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
+	$(LOCAL_PATH)/proprietary/system/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avc.so:system/lib/lib_k3_omx_avc.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_avc.so:system/lib64/lib_k3_omx_avc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avcenc.so:system/lib/lib_k3_omx_avcenc.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_avcenc.so:system/lib64/lib_k3_omx_avcenc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_mpeg2.so:system/lib/lib_k3_omx_mpeg2.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_mpeg2.so:system/lib64/lib_k3_omx_mpeg2.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_mpeg4.so:system/lib/lib_k3_omx_mpeg4.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_mpeg4.so:system/lib64/lib_k3_omx_mpeg4.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_rv.so:system/lib/lib_k3_omx_rv.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_rv.so:system/lib64/lib_k3_omx_rv.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_vc1.so:system/lib/lib_k3_omx_vc1.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_vc1.so:system/lib64/lib_k3_omx_vc1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_vp8.so:system/lib/lib_k3_omx_vp8.so \
+    $(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_vp8.so:system/lib64/lib_k3_omx_vp8.so
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -149,22 +192,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/modemConfig/hua.cfg:system/etc/modemConfig/hua.cfg \
     $(LOCAL_PATH)/proprietary/system/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
     $(LOCAL_PATH)/proprietary/system/etc/srs/models.txt:system/etc/srs/models.txt \
-    $(LOCAL_PATH)/proprietary/system/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_ALICE_normal.xml:system/etc/audio/algorithm/algorithm_ALICE_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_ALICEPA_normal.xml:system/etc/audio/algorithm/algorithm_ALICEPA_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/algorithm_SHINE_normal.xml:system/etc/audio/algorithm/algorithm_SHINE_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/algorithm/ascend_algorithm_default.xml:system/etc/audio/algorithm/ascend_algorithm_default.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_ALICE_normal.xml:system/etc/audio/dts/dts_ALICE_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_ALICEPA_normal.xml:system/etc/audio/dts/dts_ALICEPA_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_default.xml:system/etc/audio/dts/dts_default.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/dts/dts_SHINE_normal.xml:system/etc/audio/dts/dts_SHINE_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_ALICE_normal.xml:system/etc/audio/mbdrc/mbdrc_ALICE_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml:system/etc/audio/mbdrc/mbdrc_ALICEPA_normal.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_default.xml:system/etc/audio/mbdrc/mbdrc_default.xml \
-    $(LOCAL_PATH)/proprietary/system/etc/audio/mbdrc/mbdrc_SHINE_normal.xml:system/etc/audio/mbdrc/mbdrc_SHINE_normal.xml
+    $(LOCAL_PATH)/proprietary/system/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic
+
+#extra stuff to test
+PRODUCT_COPY_FILES += \
+$(LOCAL_PATH)/proprietary/system/sbin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
+$(LOCAL_PATH)/proprietary/system/sbin/e2fsck_s:system/bin/e2fsck_s \
+$(LOCAL_PATH)/proprietary/system/sbin/teecd:system/bin/teecd
+
 
 #extra (temporary) stuff to make bootable from XePeleato (thx)
 PRODUCT_COPY_FILES += \
+$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omxcore.so:system/lib/lib_k3_omxcore.so \
+$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omxcore.so:system/lib64/lib_k3_omxcore.so \
 $(LOCAL_PATH)/proprietary/system/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
 $(LOCAL_PATH)/proprietary/system/lib64/hw/bastet.hi6210sft.so:system/lib64/hw/bastet.hi6210sft.so \
 $(LOCAL_PATH)/proprietary/system/lib64/hw/libbcmfm_if.so:system/lib64/hw/libbcmfm_if.so \
@@ -176,8 +216,6 @@ $(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.d
 $(LOCAL_PATH)/proprietary/system/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
 $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.default.so:system/lib/hw/hwcomposer.default.so \
 $(LOCAL_PATH)/proprietary/system/lib64/hw/hwcomposer.default.so:system/lib64/hw/hwcomposer.default.so \
-$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.hi6210sft.so:system/lib/hw/hwcomposer.hi6210sft.so \
-$(LOCAL_PATH)/proprietary/system/lib64/hw/hwcomposer.hi6210sft.so:system/lib64/hw/hwcomposer.hi6210sft.so \
 $(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libhardware.so:system/lib64/libhardware.so \
 $(LOCAL_PATH)/proprietary/system/lib/libbt_factory_test.so:system/lib/libbt_factory_test.so \
@@ -194,15 +232,6 @@ $(LOCAL_PATH)/proprietary/system/lib64/libgps_factory_test_hi110x.so:system/lib6
 $(LOCAL_PATH)/proprietary/system/lib64/libhardware_legacy_bcm.so:system/lib64/libhardware_legacy_bcm.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libhardware_legacy_hisi.so:system/lib64/libhardware_legacy_hisi.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libhuawei_mmi_test.so:system/lib64/libhuawei_mmi_test.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_avc.so:system/lib64/lib_k3_omx_avc.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_avcenc.so:system/lib64/lib_k3_omx_avcenc.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omxcore.so:system/lib64/lib_k3_omxcore.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_mpeg2.so:system/lib64/lib_k3_omx_mpeg2.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_mpeg4.so:system/lib64/lib_k3_omx_mpeg4.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_rv.so:system/lib64/lib_k3_omx_rv.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_vc1.so:system/lib64/lib_k3_omx_vc1.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_k3_omx_vp8.so:system/lib64/lib_k3_omx_vp8.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
 $(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor-hi110x.so:system/vendor/lib/libbt-vendor-hi110x.so \
 $(LOCAL_PATH)/proprietary/system/vendor/lib64/libbt-vendor-hi110x.so:system/vendor/lib64/libbt-vendor-hi110x.so \
@@ -258,18 +287,8 @@ $(LOCAL_PATH)/proprietary/system/lib/hw/memtrack.hi6210sft.so:system/lib/hw/memt
 $(LOCAL_PATH)/proprietary/system/lib64/hw/memtrack.hi6210sft.so:system/lib64/hw/memtrack.hi6210sft.so \
 $(LOCAL_PATH)/proprietary/system/lib/libhardware.so:system/lib/libhardware.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libhardware.so:system/lib64/libhardware.so \
-$(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
-$(LOCAL_PATH)/proprietary/system/lib64/libui.so:system/lib64/libui.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_sf.so:system/lib/lib_hwnsd_sf.so \
-$(LOCAL_PATH)/proprietary/system/lib64/lib_hwnsd_sf.so:system/lib64/lib_hwnsd_sf.so \
-$(LOCAL_PATH)/proprietary/system/lib64/libgui.so:system/lib64/libgui.so \
-$(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
-$(LOCAL_PATH)/proprietary/system/lib/libhwaps.so:system/lib/libhwaps.so \
-$(LOCAL_PATH)/proprietary/system/lib64/libhwaps.so:system/lib64/libhwaps.so \
 $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libion.so:system/lib64/libion.so \
-$(LOCAL_PATH)/proprietary/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-$(LOCAL_PATH)/proprietary/system/lib64/libsurfaceflinger.so:system/lib64/libsurfaceflinger.so \
 $(LOCAL_PATH)/proprietary/system/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
 $(LOCAL_PATH)/proprietary/system/lib/libCameraHwCallBack.so:system/lib/libCameraHwCallBack.so \
@@ -327,15 +346,6 @@ $(LOCAL_PATH)/proprietary/system/lib/imedia_filters.so:system/lib/imedia_filters
 $(LOCAL_PATH)/proprietary/system/lib/lib_atprotocolsw.so:system/lib/lib_atprotocolsw.so \
 $(LOCAL_PATH)/proprietary/system/lib/lib_hwnsd_input.so:system/lib/lib_hwnsd_input.so \
 $(LOCAL_PATH)/proprietary/system/lib64/lib_hwnsd_input.so:system/lib64/lib_hwnsd_input.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avc.so:system/lib/lib_k3_omx_avc.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avcenc.so:system/lib/lib_k3_omx_avcenc.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_mpeg2.so:system/lib/lib_k3_omx_mpeg2.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_mpeg4.so:system/lib/lib_k3_omx_mpeg4.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_rv.so:system/lib/lib_k3_omx_rv.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_vc1.so:system/lib/lib_k3_omx_vc1.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_vp8.so:system/lib/lib_k3_omx_vp8.so \
-$(LOCAL_PATH)/proprietary/system/lib/lib_k3_omxcore.so:system/lib/lib_k3_omxcore.so \
 $(LOCAL_PATH)/proprietary/system/lib/libadc_old_sdk.so:system/lib/libadc_old_sdk.so \
 $(LOCAL_PATH)/proprietary/system/lib/libaes.so:system/lib/libaes.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libaes.so:system/lib64/libaes.so \
@@ -427,8 +437,6 @@ $(LOCAL_PATH)/proprietary/system/lib/libsupl20oasn1rrlp.so:system/lib/libsupl20o
 $(LOCAL_PATH)/proprietary/system/lib/libsupl20oasn1supl1.so:system/lib/libsupl20oasn1supl1.so \
 $(LOCAL_PATH)/proprietary/system/lib/libsupl20oasn1supl2.so:system/lib/libsupl20oasn1supl2.so \
 $(LOCAL_PATH)/proprietary/system/lib/libsupl20oasn1tia.so:system/lib/libsupl20oasn1tia.so \
-$(LOCAL_PATH)/proprietary/system/lib/libtfa9895.so:system/lib/libtfa9895.so \
-$(LOCAL_PATH)/proprietary/system/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
 $(LOCAL_PATH)/proprietary/system/lib/libwifipro.so:system/lib/libwifipro.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libwifipro.so:system/lib64/libwifipro.so \
 $(LOCAL_PATH)/proprietary/system/lib64/libagnssal.so:system/lib64/libagnssal.so \
