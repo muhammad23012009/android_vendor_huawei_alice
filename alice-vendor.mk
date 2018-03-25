@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+    HwBluetoothImport \
     supl20Service
 
 $(call inherit-product, vendor/huawei/alice/alice-vendor-blobs.mk)

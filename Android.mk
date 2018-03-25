@@ -17,6 +17,16 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter alice,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := HwBluetoothImport
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := system/app/HwBluetoothImport/HwBluetoothImport.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := supl20Service
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := system/app/supl20Service/supl20Service.apk
