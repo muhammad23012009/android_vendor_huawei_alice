@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Config>
   <Template> <!--Makeup template size, current only support 128 -->
     <PreviewSize>128</PreviewSize>
@@ -14,7 +14,7 @@
     <EyeConfidenceThreshold>150</EyeConfidenceThreshold><!-- valid value is 0 - 1000, 0 or a number smaller than 0 can disable the eye confidence judgement functions.-->
     <MouthConfidenceThreshold>200</MouthConfidenceThreshold><!-- valid value is 0 - 1000, 0 or a number smaller than 0 can disable the mouth confidence judgement functions.-->
   </Others>
-  <Mode> <!--1 韩式裸妆-->
+  <Mode>
     <BY_SSm_ratio>90</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>270</BY_SBr_ratio>
@@ -38,7 +38,7 @@
     <BY_EMu_templateIdx>01</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--4 可爱芭比妆-->
+  <Mode>
     <BY_SSm_ratio>100</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>300</BY_SBr_ratio>
@@ -62,7 +62,7 @@
     <BY_EMu_templateIdx>06</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--5 清新自然-->
+  <Mode> 
     <BY_SSm_ratio>90</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>270</BY_SBr_ratio>
@@ -86,7 +86,7 @@
     <BY_EMu_templateIdx>05</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--7 甜美少女妆-->
+  <Mode>
     <BY_SSm_ratio>90</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>270</BY_SBr_ratio>
@@ -110,7 +110,7 @@
     <BY_EMu_templateIdx>07</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--8 粉嫩桃花妆-->
+  <Mode>
     <BY_SSm_ratio>100</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>300</BY_SBr_ratio>
@@ -134,7 +134,7 @@
     <BY_EMu_templateIdx>08</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--12 梦幻烟熏妆-->
+  <Mode>
     <BY_SSm_ratio>100</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>300</BY_SBr_ratio>
@@ -158,7 +158,7 @@
     <BY_EMu_templateIdx>12</BY_EMu_templateIdx>
     <BY_ELs_Ratio>85</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--14 假日派对妆-->
+  <Mode>
     <BY_SSm_ratio>100</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>300</BY_SBr_ratio>
@@ -182,7 +182,7 @@
     <BY_EMu_templateIdx>14</BY_EMu_templateIdx>
     <BY_ELs_Ratio>70</BY_ELs_Ratio>
   </Mode>
-  <Mode> <!--15 优雅名媛妆-->
+  <Mode>
     <BY_SSm_ratio>90</BY_SSm_ratio>
     <BY_SSm_size>100</BY_SSm_size>
     <BY_SBr_ratio>270</BY_SBr_ratio>
